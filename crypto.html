@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Crypto - Abyss</title>
+        <link rel="stylesheet" href="crypto.css">
+    </head>
+
+        <body>
+            <div class="container">
+                
+                <nav>
+                    <a href="index.html"> <img src="images/ABYSS-2.png"></a>
+    
+                        <div class="nav-links" id="navLinks">
+                            <i class=""> <img src="images/close.png" class="close" onclick="hideMenu()"> </i> 
+                            <ul>
+                                <li> <a href="index.html">HOME </a></li>
+                                <li> <a href="creations.html">CREATIONS </a></li>
+                                <li> <a href="shop.html">SHOP </a></li>
+                                <li> <a href="">RECOMMENDATIONS </a></li>
+                                <li> <a href="crypto.html">CRYPTO </a></li>
+                                <li> <a href="About.html">ABOUT </a></li>
+                                <li> <a href="contact us.html"> CONTACT US</a></li>
+                            </ul>
+                        </div>
+                        <i class=""> <img src="images/menu.png" class="menu" onclick="showMenu()"></a> </i>
+                 </nav>
+
+                 <div class="textbox">
+                    <h1> BUY <br> AND <br> SELL <span> CRYPTO</span> </h1>
+                    <p> Worlds biggest cryptocurrency exchabge available <br> for both mobile and computer devices</p>
+                    <a href="https://coinmarketcap.com/" class="btn"> FIND OUT</a>
+                 </div>
+
+                 <div class="coin-list">
+
+                    <div class="coin">
+                        <img src="images/bitcoin.png">
+                            <div>
+                                <h3> $00</h3>
+                                <p> Bitcoin</p>
+                            </div>
+                    </div>
+
+                    <div class="coin">
+                        <img src="images/ethereum.png">
+                            <div>
+                                <h3> $00</h3>
+                                <p> Etherium</p>
+                            </div>
+                    </div>
+
+                    <div class="coin">
+                        <img src="images/tether.png">
+                            <div>
+                                <h3> $00</h3>
+                                <p> Tether</p>
+                            </div>
+                    </div>
+
+                 </div>
+            </div>
+            
+         <!------ Javascript Menu------>
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+        </body>
+</html>

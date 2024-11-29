@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.climate-crisis{
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/zombie-edit.gif);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.tbox{
+    width: 70%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.tbox h1{
+    font-size: 72px;
+}
+.tbox h2{
+    font-size: 72px;
+    color: rgb(0, 255, 255);
+}
+.tbox p{
+    margin: 20px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+.tbox h{
+    width: 20%;
+    display:inline-block;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #e96208;
+    padding: 10px 26px;
+    font-size: 20px;
+    text-align: center;
+    background: #f44226;
+    position: relative;
+    cursor: pointer;
+}
+.Visit-creationsBtn{
+    width: 20%;
+    display:inline-block;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #e96208;
+    padding: 10px 26px;
+    font-size: 20px;
+    text-align: center;
+    background: #f44226;
+    position: relative;
+    cursor: pointer;
+}
+.Visit-creationsBtn:hover{
+    color: #fff;
+    border:1px solid #000000;
+    background: #000000;
+    transition: 1s;
+}
+
+/*----- wallpapers-----*/
+.wallpapers{
+    min-height: 150vh;
+    width: 100%;
+    background-image: url(images/tst-5.jpg);
+    background-position: center;
+    background-size:auto;
+    position: relative;
+}
+.tbox2{
+    width: 70%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.tbox2 h1{
+    font-size: 72px;
+}
+.tbox2 h2{
+    font-size:72px;
+    color: #ecaf07;
+}
+.tbox2 p{
+    margin: 30px 10px 39px;
+    font-size: 20px;
+    color: #fff;
+}
+.Visit-wallpapersBtn{
+    width: 20%;
+    display:inline-block;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #e96208;
+    padding: 10px 26px;
+    font-size: 20px;
+    text-align: center;
+    background: #f44226;
+    position: relative;
+    cursor: pointer;
+}
+.Visit-wallpapersBtn:hover{
+    color: #fff;
+    border:1px solid #000000;
+    background: #000000;
+    transition: 1s;
+}
+
+/*---ADVERTISEMENTS---*/
+.advertisements{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/space-ting.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.tbox3{
+    width: 70%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.tbox3 h1{
+    font-size: 72px;
+}
+.tbox3 h2{
+    font-size:72px;
+    color: #0312ec;
+}
+.tbox3 p{
+    margin: 30px 10px 39px;
+    font-size: 20px;
+    color: #fff;
+}
+.Visit-advertisementsBtn{
+    width: 20%;
+    display:inline-block;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #e96208;
+    padding: 10px 26px;
+    font-size: 20px;
+    text-align: center;
+    background: #f44226;
+    position: relative;
+    cursor: pointer;
+}
+.Visit-advertisementsBtn:hover{
+    color: #fff;
+    border:1px solid #000000;
+    background: #000000;
+    transition: 1s;
+}
+.nfts{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/withered-forest-trees-1686871-Recovered.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.tbox4{
+    width: 70%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.tbox4 h1{
+    font-size: 72px;
+}
+.tbox4 h2{
+    font-size:72px;
+    color: #fa640d;
+}
+.tbox4 p{
+    margin: 30px 10px 39px;
+    font-size: 20px;
+    color: #fff;
+}
+.Visit-nftsBtn{
+    width: 20%;
+    display:inline-block;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #e96208;
+    padding: 10px 26px;
+    font-size: 20px;
+    text-align: center;
+    background: #f44226;
+    position: relative;
+    cursor: pointer;
+}
+.Visit-nftsBtn:hover{
+    color: #fff;
+    border:1px solid #000000;
+    background: #000000;
+    transition: 1s;
+}
+.request-edit{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/Cliff.png);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.tbox5{
+    width: 70%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.tbox5 h1{
+    font-size: 72px;
+}
+.tbox5 h2{
+    font-size:72px;
+    color: #e8f806;
+}
+.tbox5 p{
+    margin: 30px 10px 39px;
+    font-size: 20px;
+    color: #fff;
+}
+.request-editBtn{
+    width: 20%;
+    display:inline-block;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #e96208;
+    padding: 10px 26px;
+    font-size: 20px;
+    text-align: center;
+    background: #f44226;
+    position: relative;
+    cursor: pointer;
+}
+.request-editBtn:hover{
+    color: #fff;
+    border:1px solid #000000;
+    background: #000000;
+    transition: 1s;
+}

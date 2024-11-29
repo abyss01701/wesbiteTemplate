@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> About - Abyss </title>
+        <link rel="stylesheet" href="About.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        
+        <nav>
+                <a href="index.html"> <img src="images/ABYSS-2.png"></a>
+
+                    <div class="nav-links" id="navLinks">
+                        <i class=""> <img src="images/close.png" class="close" onclick="hideMenu()"> </i>    
+                        <ul>
+                            <li> <a href="index.html">HOME </a></li>
+                            <li> <a href="creations.html">CREATIONS </a></li>
+                            <li> <a href="shop.html">SHOP </a></li>
+                            <li> <a href="">RECOMMENDATIONS </a></li>
+                            <li> <a href="crypto.html">CRYPTO </a></li>
+                            <li> <a href="About.html">ABOUT </a></li>
+                            <li> <a href="contact us.html"> CONTACT US</a></li>
+                        </ul>
+                        
+                    </div>
+                    <i class=""> <img src="images/menu.png" class="menu" onclick="showMenu()"></a> </i>
+        </nav>
+
+        <h1> About Us</h1>
+
+    </section>
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="row-col">
+                <h1> We are the biggest money makers</h1>
+                <p> There are countless ways to make money, but not all of them are created equal. Some methods may require more time, effort, or capital than others, so it's important to find the right fit for your skills, resources, and goals.
+                    One common way to make money is through a traditional job or career. This can provide a steady income, benefits, and stability, but may also come with limited earning potential, long hours, and a lack of flexibility or autonomy.</p>
+            </div>
+            <div class="row-col">
+                <img src="images/arknights-4k-waggbbwkw7f8w8dg.jpg">
+            </div>
+        </div>
+
+    </section>
+    
+        <!------ Javascript Menu------>
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+</body>
+</html>

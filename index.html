@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Abyss </title>
+        <link rel="stylesheet" href="style.css">
+        
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+ <body>
+    <section class="header">
+        
+        <nav>
+                <a href="index.html"> <img src="images/ABYSS-2.png"> </a>
+                   
+                    <div class="nav-links" id="navLinks">
+                        <i class=""> <img src="images/close.png" class="close" onclick="hideMenu()"> </i>    
+                        <ul>
+                            <li> <a href="index.html">HOME </a></li>
+                            <li> <a href="creations.html">CREATIONS </a></li>
+                            <li> <a href="shop.html">SHOP </a></li>
+                            <li> <a href="">RECOMMENDATIONS </a></li>
+                            <li> <a href="crypto.html">CRYPTO </a></li>
+                            <li> <a href="About.html">ABOUT </a></li>
+                            <li> <a href="contact us.html"> CONTACT US</a></li>
+                        </ul>
+                        
+                    </div>
+                    <i class=""> <img src="images/menu.png" class="menu" onclick="showMenu()"></a> </i>
+        </nav>
+
+<div class="text-box">
+    <h1>  <span class="auto-input"> </span> </h1>
+    <p> Abyss Corporation is all about meeting the demands of the consumers in the latest marketing trends <br> Are you ready?</p>
+    <a href="home.html"class="hero-btn"> Explore </a>
+
+</div>
+    
+    </section>
+
+<!------ CREATIONS ------>
+<section class="body1">
+    <h4> RANDOM TEXT</h4>
+    <p>Looking for the latest fashion trends and accessories to add to your wardrobe? Look no further! Our collection of fashion items has everything you need to stay on-trend and stylish. From must-have handbags and chic sunglasses to trendy footwear and statement jewelry, we've got you covered.
+
+        Our fashion items are carefully curated to ensure that you have access to the hottest styles and designs. Whether you're looking for casual wear or something more formal, we have a wide selection of fashion items to choose from. Plus, with new arrivals added regularly, you can always find something fresh and exciting to add to your collection.
+        
+        At our store, we're passionate about fashion and helping you express your unique style. That's why we offer personalized styling advice and tips to help you create the perfect look. Our team of fashion experts is always on hand to answer your questions and provide you with the guidance you need to make the right choices for your wardrobe.
+        
+        So why wait? Browse our collection of fashion items today and start elevating your style to the next level!</p>
+
+    <div class="surface">
+        <div class="col">
+            <h2> PRODUCTS</h2>
+                <div class="caption">
+                    <p> Check out these latest products from  Abyss and let us know what you think</p>
+                        <button type="button">  CHECK IT OUT</button>
+                </div>
+                <img src="images/1-index-white-sneakers-1629830273.png">
+        </div>
+        <div class="col">
+            <h2> ACCESSORIES</h2>
+                <div class="caption">
+                    <p> Check out these latest products from Abyss and let us know what you think</p>
+                        <button type="button">  CHECK IT OUT</button>
+                </div>
+                <img src="images/green.png">
+        </div>
+        <div class="col">
+            <h2> ITEMS</h2>
+                <div class="caption">
+                    <p> Check out these latest products from Abyss and let us know what you think</p>
+                        <button type="button">  CHECK IT OUT</button>
+                </div>
+                <img src="images/red.png">
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!------ Javascript Menu------>
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            
+            var typed = new Typed(".auto-input",{
+
+                strings: ["Welcome to Abyss", "Welcome to Abyss"], 
+                typeSpeed:55,
+                loop:false
+            })
+
+        </script>
+
+ </body>
+
+</html>
